@@ -1,0 +1,154 @@
+{
+	"books": [
+		{
+			"title": "Spook Street",
+			"author": "Mick Herron",
+			"description":
+				"Twenty years retired, David Cartwright can still spot when the stoats are on his trail. Jackson Lamb worked with Cartwright back in the day. He knows better than most that this is no vulnerable old man.",
+			"poster": "book9.jpg"
+		},
+
+		{
+			"title": "Child 44",
+			"author": "Tom Rob Smith",
+			"description":
+				"In Stalin's Soviet Union, crime does not exist. But still millions live in fear. The mere suspicion of disloyalty to the State, the wrong word at the wrong time, can send an innocent person to his execution. ",
+			"poster": "book8.jpg"
+		},
+
+		{
+			"title": "Prussian Blue",
+			"author": "Philip Kerr",
+			"description":
+				"A low-level German bureaucrat had been murdered, and the Reichstag deputy Martin Bormann, in charge of overseeing renovations to the Berghof, wants the case solved quickly. If the Fuhrer were ever to find out that his own house had been the scene of a recent murder - the consequences wouldn't bear thinking about.",
+			"poster": "book7.jpg"
+		},
+		{
+			"title": "The House",
+			"author": "Simon Lelic",
+			"description":
+				"Londoners Jack and Syd moved into the house a year ago. It seemed like their dream home: tons of space, the perfect location, and a friendly owner who wanted a young couple to have it",
+			"poster": "book6.jpg"
+		},
+
+		{
+			"title": "Typhoon Fury",
+			"author": "Clive Clussler",
+			"description":
+				"Juan Cabrillo and the crew of the Oregon are about to sail into a perfect storm of danger. Their mission? To stop a new world war . . .",
+			"poster": "book5.jpg"
+		},
+		{
+			"title": "Algorithms",
+			"author": "Thomas H Cormen",
+			"description":
+				"A new edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow",
+			"poster": "book20.jpg"
+		},
+
+		{
+			"title": "What Algorithms Want",
+			"author": "Ed Finn",
+			"description":
+				"We depend on -- we believe in -- algorithms to help us get a ride, choose which book to buy, execute a mathematical proof. It's as if we think of code as a magic spell, an incantation to reveal what we need to know and even what we want.",
+			"poster": "book21.jpg"
+		},
+		{
+			"title": "The Bride Of Science",
+			"author": "Benjamin Wolley",
+			"description":
+				"Ada Lovelace, the daughter of Lord Byron was born in 1815 just after the Battle of Waterloo, and died aged 36, soon after the Great Exhibition of 1851. She was connected with some of the most influential and colourful characters of the age",
+			"poster": "book19.jpg"
+		},
+
+		{
+			"title": "Tokyo Ghou",
+			"author": "Sui Ishida",
+			"description":
+				"Ghouls live among us, the same as normal people in every way - except their craving for human flesh. Ken Kaneki is an ordinary college student until a violent encounter turns him into the first half-human half-ghoul hybrid",
+			"poster": "book17.jpg"
+		},
+		{
+			"title": "The People V O.J Simpson",
+			"author": "Jeffrey Toobin",
+			"description":
+				"Now a major BBC TV series. The definitive account of the O. J. Simpson trial, The People V. O.J. Simpson is a prodigious feat of reporting that could have been written only by the foremost legal journalist of our time",
+			"poster": "book16.jpg"
+		},
+		{
+			"title": "Evil Relations",
+			"author": "David Smith",
+			"description":
+				"Despite standing as chief prosecution witness in the Moors Murders trial, David Smith was vilified by the public due to the accusations thrown at him by Myra Hindley and Ian Brady about his involvement in their crimes. ",
+			"poster": "book15.jpg"
+		},
+		{
+			"title": "The Word is Murder",
+			"author": "Anthony Horowitz",
+			"description":
+				"A wealthy woman strangled six hours after she's arranged her own funeral.  A very private detective uncovering secrets but hiding his own. A reluctant author drawn into a story he can't control. ",
+			"poster": "book14.jpg"
+		},
+		{
+			"title": "And Then There Were None",
+			"author": "Agatha Christie",
+			"description":
+				"Agatha Christie's world-famous mystery thriller, reissued with a striking new cover designed to appeal to the latest generation of Agatha Christie fans and book lovers",
+			"poster": "book13.jpg"
+		},
+
+		{
+			"title": "Death On The Nile",
+			"author": "Agatha Christie",
+			"description":
+				"Agatha Christie's most exotic murder mystery, reissued with a striking new cover designed to appeal to the latest generation of Agatha Christie fans and book lovers.",
+			"poster": "book12.jpg"
+		},
+
+		{
+			"title": "Murder On The Orient Express",
+			"author": "Agatha Christie",
+			"description":
+				"Just after midnight, a snowdrift stops the Orient Express in its tracks. The luxurious train is surprisingly full for the time of the year, but by the morning it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside. ",
+			"poster": "book11.jpg"
+		},
+
+		{
+			"title": "Spies Of Warsaw",
+			"author": "Alan Furst",
+			"description":
+				"On a cool October evening in 1937, German engineer and secret agent Herr Edvard Uhl arrives in Warsaw. He suppresses a chill of fear. Tonight, he will be with his mistress; tomorrow, he will be at a bar, where he will meet with a French military attache.",
+			"poster": "book10.jpg"
+		},
+
+		{
+			"title": "Alex Cross",
+			"author": "James Patterson",
+			"description":
+				"'It is told with a ferocious power and emotion that is quite impossible to ignore' Daily Mail The charges: explosive Alex Cross has never been on the wrong side of the law - until now. Charged with gunning down followers of his nemesis Gary Soneji in cold blood, Cross is being turned into the poster child for trigger-happy cops who think they're above the law. ",
+			"poster": "book2.jpg"
+		},
+		{
+			"title": "A GentleMan in Moscow",
+			"author": "Amor Towles ",
+			"description":
+				"On 21 June, 1922, Count Alexander Rostov - recipient of the Order of Saint Andrew, member of the Jockey Club, Master of the Hunt - is escorted out of the Kremlin, across Red Square and through the elegant revolving doors of the Hotel Metropol.",
+			"poster": "book1.jpg"
+		},
+		{
+			"title": "Need you Dead",
+			"author": "Peter James",
+			"description":
+				"Lorna Belling, desperate to escape the marriage from hell, falls for the charms of another man who promises her the earth. But, as Lorna finds, life seldom follows the plans you've made. A chance photograph on a client's mobile phone changes everything for her.",
+			"poster": "book02.jpg"
+		},
+
+		{
+			"title": "The Crow Girl",
+			"author": "Erik Axl Sund",
+			"description":
+				"Karl Lundtsrom was breathing shallowly through his nose, and his Adam's apple was bobbing up and down as he spoke. Sofia felt physical disgust looking at him. She wasn't sure she wanted to hear more.",
+			"poster": "book03.jpg"
+		}
+	]
+}
