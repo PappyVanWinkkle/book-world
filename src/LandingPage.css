@@ -1,0 +1,41 @@
+/* stylesheets for the Landing Page */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    
+    background-color: #f1c40f;
+    border-radius: 1px;
+    color: black;
+  
+  }
+  
+  .slides {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+  }
+  
+  .primary {
+    background: green;
+    margin-top: 40px;
+    margin-left: 550px;
+    position: absolute;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: #050c13;
+    color: #ecf0f1;
+  }

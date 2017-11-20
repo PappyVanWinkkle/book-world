@@ -1,21 +1,24 @@
-/* Landing page Component */
+/* Main Landing Page Component of the Application with routes */
+/* to Other Components */
 import React, { Component } from "react";
-import SliderImages from './SliderImages';
-import './Landing.css';
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import LandingPage from "./LandingPage";
+import SearchBook from "./SearchBook";
+import ErrorPage from "./ErrorPage";
+import DetailedBooks from "./DetailedBooks";
 
 class Landing extends React.Component {
   render() {
     return (
-      <div className="wrapper">
-        <header>
-          <h1>BookWorld</h1>
-        </header>
-        <div className="slides">
-          <SliderImages />
+      <BrowserRouter>
+        <div className="landing">
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/errors" component={ErrorPage} />
+            <Route path="/search" component={SearchBook} />
+          </Switch>
         </div>
-        <button className="primary">Browse</button>
-      </div>
+      </BrowserRouter>
     );
   }
 }

@@ -1,0 +1,58 @@
+/* styles for search book component */
+.books {
+  float: left;
+  margin-right: 2%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-align: left;
+  width: 32%;
+  height: 0;
+  padding-bottom: 20%;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+
+.books > img{
+  width: 40%;
+  float: left;
+}
+
+.books > div {
+    display: block;
+    float: right;
+    width: 40%;
+    overflow-y: scroll;
+
+}
+.books > div h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.books > div h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1em;
+}
+
+.books > div p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+    
+.search-book {
+    margin-top: 100px;   
+}
+
+.books {
+    background: black;
+}
+
+.books > div p, h3, h4 {
+    color: #ecf0f1;
+}
