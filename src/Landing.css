@@ -25,7 +25,8 @@ h1 {
 .primary {
   background: green;
   margin-top: 40px;
-  margin-left: 450px;
+  margin-left: 550px;
+  position: absolute;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 8px;
