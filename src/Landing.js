@@ -3,7 +3,8 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import SearchBook from "./SearchBook";
+import SearchBooks from "./SearchBooks";
+import preload from "./data.json";
 import ErrorPage from "./ErrorPage";
 import DetailedBooks from "./DetailedBooks";
 
@@ -14,8 +15,11 @@ class Landing extends React.Component {
         <div className="landing">
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route path="/errors" component={ErrorPage} />
-            <Route path="/search" component={SearchBook} />
+            <Route
+              path="/search" component={props =>
+                <SearchBooks book={preload.books} {...props}/>}
+            />
+            
           </Switch>
         </div>
       </BrowserRouter>

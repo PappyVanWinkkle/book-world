@@ -6,7 +6,7 @@ class primaryButton extends React.Component {
   render() {
     return (
       <div>
-        <Button color="primary">Browse >></Button> 
+        <Button color="secondary">Back</Button>{' '}
       </div>
     );
   }
