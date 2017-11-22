@@ -1,0 +1,42 @@
+/* stylesheet for the Detailed books component */
+.details {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow-y: scroll;
+    background-color: rgba(220,220,220 .8);
+    padding: 15px 30px;
+    border-radius: 5px;
+    min-width: 1400px;
+}
+
+.details > h1 {
+        font-family: 'Pacifico', cursive;
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #f1c40f;
+        border-radius: 1px;
+        color: black;    
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+}

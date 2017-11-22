@@ -2,10 +2,15 @@
 /* on the main page of the app */
 import React, { Component } from "react";
 import { string } from "prop-types";
+import { Link } from "react-router-dom";
 import "./BooksDetails.css";
 
 const BooksDetails = props => (
-  <div className="books">
+ 
+  <Link to={`/details/${props.bkId}`}>
+   
+  <div className="books" >
+    
     <img
       alt={`${props.title}`}
       src={require(`./images/posters/${props.poster}`)}
@@ -16,6 +21,7 @@ const BooksDetails = props => (
       <p>{props.description}</p>
     </div>
   </div>
+  </Link>
 );
 
 BooksDetails.propTypes = {

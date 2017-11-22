@@ -16,10 +16,20 @@ class Landing extends React.Component {
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route
-              path="/search" component={props =>
-                <SearchBooks book={preload.books} {...props}/>}
+              path="/search"
+              component={props => (
+                <SearchBooks book={preload.books} {...props} />
+              )}
             />
-            
+            <Route
+              path="/details/:id"
+              component={props => {
+                const selectedBook = preload.books.find(
+                  book => props.match.params.id === book.bkId
+                );
+                return <DetailedBooks book={selectedBook} {...props} />;
+              }}
+            />
           </Switch>
         </div>
       </BrowserRouter>
