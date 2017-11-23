@@ -21,7 +21,7 @@
     margin: 0 auto;
     background-color: black;
   }
-  
+  /*
   .primary {
     background: green;
     margin-top: 40px;
@@ -38,4 +38,15 @@
     font-family: 'Raleway', sans-serif;
     background: #050c13;
     color: #ecf0f1;
+  } */
+  .primary {
+    margin-left: 550px;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    height: 40px;
+    width: 200px;
+    border-radius: 4px solid black;
+    background: black;
+    color: #ecf0f1;
+    font-size: 20px;
   }

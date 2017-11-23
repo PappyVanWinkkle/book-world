@@ -2,6 +2,7 @@
 /*Loops through the json data to populate the page with books from API */
 import React, { Component } from "react";
 import BooksDetails from "./BooksDetails";
+import { Link } from "react-router-dom";
 import InputSearchBox from "./InputSearchBox";
 import preload from "./data.json";
 import "./BooksDetails.css";
@@ -22,16 +23,24 @@ class SearchBooks extends React.Component {
   render() {
     return (
       <div className="search-book">
+        <Link to="/">
+          <div className="home-button">
+            <button>Back</button>
+          </div>
+        </Link>
         <InputSearchBox
           searchTerm={this.state.searchTerm}
           showSearch
           handleSearch={this.handleSearch}
         />
-
         <div>
-             
           {preload.books
-            
+            .filter(
+              book =>
+                `${book.title} ${book.author} ${book.description}`
+                  .toUpperCase()
+                  .indexOf(this.state.searchTerm.toUpperCase()) >= 0
+            )
             .map((book, index) => (
               <BooksDetails {...book} key={book.bkId} id={index} />
             ))}

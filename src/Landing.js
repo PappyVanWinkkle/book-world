@@ -30,6 +30,7 @@ class Landing extends React.Component {
                 return <DetailedBooks book={selectedBook} {...props} />;
               }}
             />
+            <Route component={ErrorPage} />
           </Switch>
         </div>
       </BrowserRouter>

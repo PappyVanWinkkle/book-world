@@ -52,7 +52,7 @@
 }
 */
 .books {
-    background: black;
+    background: rgb(20, 19, 19);
     margin-top: 50px;
     margin-left: 150px;
     
@@ -61,4 +61,19 @@
 h3,
 h4 {
     color: #ecf0f1;
+}
+
+.home-button {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.home-button > button {
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    color: #7f8c8d;
 }
