@@ -1,9 +1,9 @@
 /* Landing page Component */
+/* This is the home main page of the application  */
 import React, { Component } from "react";
-import SliderImages from './SliderImages';
-import { Link } from 'react-router-dom';
-import './LandingPage.css';
-
+import SliderImages from "./SliderImages";
+import { Link } from "react-router-dom";
+import "./LandingPage.css";
 
 class LandingPage extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class LandingPage extends React.Component {
           <SliderImages />
         </div>
         <Link to="/search">
-        <button className="primary">Browse</button>
+          <button className="primary">Browse</button>
         </Link>
       </div>
     );

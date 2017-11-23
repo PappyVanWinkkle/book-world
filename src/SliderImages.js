@@ -1,3 +1,6 @@
+/* Carousel component for the application */
+/* Uses Reactstrap which comes with bootsrap 4 which renders the slide show with images  */
+
 import React, { Component } from "react";
 import book15 from "./images/posters/book15.jpg";
 import book9 from "./images/posters/book9.jpg";

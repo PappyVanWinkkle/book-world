@@ -1,27 +1,23 @@
 /* stylesheets for the Landing Page */
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 h1 {
   font-family: 'Pacifico', cursive;
   font-weight: 700;
   font-size: 50px;
   text-align: center;
-  
   background-color: #f1c40f;
   border-radius: 1px;
   color: black;
-
 }
-
 .slides {
   max-width: 1200px;
   margin: 0 auto;
   background-color: black;
 }
-
 .primary {
   background: green;
   margin-top: 40px;

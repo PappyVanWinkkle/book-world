@@ -1,8 +1,8 @@
 /* stylesheets for the 404 page */
+
 .Errors {
     margin: 0 auto;
 }
-
 .Errors > h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -11,23 +11,9 @@
     line-height: 1.2em;
     margin-top: 100px;
 }
-
 .Errors > h4 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #ecf0f1;
     line-height: 1.2em;
-}
-
-error-button > button {
-   margin-left: 550px;
-   margin-top: 40px;
-   font-family: 'Raleway', sans-serif;
-   height: 40px;
-   width: 200px;
-   border-radius: 4px solid black;
-   background: black;
-   color: #ecf0f1;
-   font-size: 20px;
-
 }

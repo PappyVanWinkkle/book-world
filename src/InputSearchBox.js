@@ -1,7 +1,7 @@
 /* Input Search box for the component */
 /* User types the name of the book in this component  */
 import React from "react";
-import './InputSearchBox.css';
+import "./InputSearchBox.css";
 import { Link } from "react-router-dom";
 
 const InputSearchBox = (props: {
@@ -21,12 +21,8 @@ const InputSearchBox = (props: {
       />
     );
   }
-  return (
-      <div>
-          {space}
-      </div>    
-  )
-} 
+  return <div>{space}</div>;
+};
 
 InputSearchBox.defaultProps = {
   showSearch: false,

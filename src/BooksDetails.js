@@ -6,21 +6,18 @@ import { Link } from "react-router-dom";
 import "./BooksDetails.css";
 
 const BooksDetails = props => (
- 
   <Link to={`/details/${props.bkId}`}>
-   
-  <div className="books" >
-    
-    <img
-      alt={`${props.title}`}
-      src={require(`./images/posters/${props.poster}`)}
-    />
-    <div>
-      <h3>{props.title}</h3>
-      <h4>{props.author}</h4>
-      <p>{props.description}</p>
+    <div className="books">
+      <img
+        alt={`${props.title}`}
+        src={require(`./images/posters/${props.poster}`)}
+      />
+      <div>
+        <h3>{props.title}</h3>
+        <h4>{props.author}</h4>
+        <p>{props.description}</p>
+      </div>
     </div>
-  </div>
   </Link>
 );
 

@@ -40,29 +40,16 @@
     font-size: 16px;
     line-height: 1.5em;
 }
-/*
-.search-book > div{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.search-book {
-    margin-top: 100px;
-}
-*/
 .books {
     background: rgb(20, 19, 19);
     margin-top: 50px;
     margin-left: 150px;
-    
 }
 .books > div p,
 h3,
 h4 {
     color: #ecf0f1;
 }
-
 .home-button {
     float: right;
     margin-top: 10px;
@@ -70,7 +57,6 @@ h4 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
-
 .home-button > button {
     height: 40px;
     width: 100px;
