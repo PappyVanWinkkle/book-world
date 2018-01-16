@@ -14,7 +14,7 @@ be available once the application has been deployed
 
 
 
-You need to install Node js on your machine to install the dependencies Anything about 6 should be okay
+You need to install Node js on your machine to install the dependencies Anything above node v6 should be okay
 Simply clone the repo to your desired location 
 
 
