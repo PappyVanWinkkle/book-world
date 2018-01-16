@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-weight: 700;
   font-size: 50px;
   text-align: center;
@@ -31,7 +31,7 @@ h1 {
   font-size: 20px;
   line-height: 1.6em;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: #050c13;
   color: #ecf0f1;
 }

@@ -2,7 +2,7 @@
 /* User types the name of the book in this component  */
 import React from "react";
 import "./InputSearchBox.css";
-import { Link } from "react-router-dom";
+
 
 const InputSearchBox = (props: {
   showSearch?: boolean,

@@ -1,65 +1,75 @@
 /* styles for search book component */
 
 .books {
-    float: left;
-    margin-right: 2%;
-    border: 2px solid #333;
-    border-radius: 4px;
-    text-align: left;
-    width: 32%;
-    height: 0;
-    padding-bottom: 20%;
-    overflow: hidden;
-    margin-bottom: 2%;
+  float: left;
+  margin-right: 2%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-align: left;
+  width: 40%;
+  height: 0;
+  padding-bottom: 20%;
+  overflow: hidden;
+  margin-bottom: 2%;
 }
 .books > img {
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
 }
 .books > div {
-    display: block;
-    float: right;
-    width: 40%;
-    overflow-y: scroll;
+  display: block;
+  float: right;
+  width: 40%;
+  overflow-y: scroll;
 }
-.books > div h3 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    line-height: 1em;
+.books > div h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  line-height: 1em;
 }
-.books > div h4 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1em;
+.books > div h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1em;
 }
 .books > div p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 .books {
-    background: rgb(20, 19, 19);
-    margin-top: 50px;
-    margin-left: 150px;
+  background: rgb(20, 19, 19);
+  margin-top: 50px;
+  margin-left: 150px;
 }
 .books > div p,
-h3,
-h4 {
-    color: #ecf0f1;
+h5,
+h6 {
+  color: #ecf0f1;
 }
 .home-button {
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 .home-button > button {
-    height: 40px;
-    width: 100px;
-    border-radius: 2px;
-    color: #7f8c8d;
+  height: 40px;
+  width: 100px;
+  border-radius: 2px;
+  color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+    .books {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: 100px;
+        
+    }
 }

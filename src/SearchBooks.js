@@ -1,6 +1,6 @@
 /*Search book component lists all the books on the main page */
 /*Loops through the json data to populate the page with books from API */
-import React, { Component } from "react";
+import React from "react";
 import BooksDetails from "./BooksDetails";
 import { Link } from "react-router-dom";
 import InputSearchBox from "./InputSearchBox";
